@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-color:orangered;
+            padding:10px;
+            margin:20px;
+            width: 600px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple Login Form
+        Login Form with Table
+        Select Box
+        Text Area
+        DataList
+    -->
+    <!-- input and label -->
+    <div>
+        <form>
+            <label for="username">UserName</label>
+            <input type="text" id="username">
+            <br>
+            <label for="password">Password</label>
+            <input type="password"id="password">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    
+    <!-- Login Form with Table -->
+    <h2>Table Form</h2>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                       <label>UserName</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>password</label>
+                    </td>
+                    <td>
+                        <input type=" password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <!-- select and option -->
+    <div>
+        <form>
+            <label>Select a language</label>
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Bootstrap</option>
+                <option>JAVASCRIPT</option>
+                <option>NodeJS</option>
+                <option>mongoDB</option>
+            </select>
+        </form>
+    </div>
+    <!-- Text Area -->
+    <div>
+        <form>
+            <label>Enter Your Message</label>
+            <textarea rows="5" cols="30"></textarea>
+
+        </form>
+    </div>
+    <!-- button -->
+    <!-- data list -->
+    <div>
+        <form>
+            <label for="">select a language</label>
+            <input list="technologies" name="tech">
+            <datalist id="technologies">
+                <option value="html"> 
+                    <option value="css">
+                        <option value="js">
+                            <option value="bootstrap">
+            </datalist>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+
+</body>
+</html>

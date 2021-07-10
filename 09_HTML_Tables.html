@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table, th,td{
+           border:2px solid red ;
+           border-collapse: collapse;
+        }
+        /* td{
+            border:2px solid red;
+        } */
+        .custom-id,th{
+          background-color: slateblue;
+          color:white
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple table
+        table row span
+        table col span
+        custom table with css
+    -->
+    <!-- simple table -->
+<table width="100%">
+    <tr>
+        <th>sno.</th>
+        <th>Name</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+</table>
+<!-- table row span -->
+<h2>table with thw colspan</h2>
+<table width="100%">
+    <tr>
+        <th>sno.</th>
+        <th colspan="2">Name and Adress</th>
+        
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+</table>
+<h2>table rowspan</h2>
+<table width="100%">
+    <tr>
+        <th>sno.</th>
+        <th>Name</th>
+        <th> Adress</th>
+        
+    </tr>
+    <tr>
+        <td rowspan="2">01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+    <tr>
+        
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+</table>
+<h2>custome table</h2>
+<table width="100%" id="custom-id">
+    <tr>
+        <th>sno.</th>
+        <th>Name</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>azad</td>
+        <td>india</td>
+    </tr>
+</table>
+
+</body>
+</html>

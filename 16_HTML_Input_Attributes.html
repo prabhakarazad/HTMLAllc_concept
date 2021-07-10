@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Attributes</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div {
+            background-color:rebeccapurple;
+            padding: 10px;
+            margin: 5px;
+            width: 400px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Simple Input Field Attributes
+        value,
+        readonly,
+        disabled,
+        size,
+        rows , cols
+    -->
+<!-- value -->
+<div>
+    <form action="">
+        <label for="">Enter UserName</label>
+        <input type="text" value="azad">
+    </form>
+</div>
+<!-- readonly -->
+<div>
+    <form action="">
+        <label for="">readOnly</label>
+        <input type="text" value="azad" readonly >
+    </form>
+</div>
+<!-- disabled -->
+<div>
+    <form action=""> 
+        <label for="">disabled</label>
+        <input type="text" value="azad" disabled>
+</form>
+</div>
+
+<!-- size -->
+<div>
+    <form action=""> 
+        <label for="">size</label>
+        <input type="text" value="azad"  size="30">
+</form>
+</div>
+<!-- textarea -->
+<div>
+    <form action=""> 
+        <label for="">textarea</label>
+            <textarea name="" id="" cols="30" rows="10">
+            </textarea>
+
+         </textarea>
+</form>
+</div>
+    <!--
+        HTML5 Input Field Attributes
+        required,
+        novalidate,
+        autofocus,
+        placeholder,
+        pattern
+    -->
+    <!-- required -->
+    <h2>HTML5 attributes</h2>
+    <div>
+        <form action="">
+            <label for="">UserName *</label>
+            <input type="text" required>
+            <input type="submit" value="submit">
+            </form>
+    </div>
+    <!-- novalidate -->
+    <div>
+        <form novalidate>
+            <label for="">enter an email</label>
+            <input type="email">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <!-- autofocus -->
+    <div>
+        <form action="">
+            <label for="">autofocus</label>
+            <input type="text" autofocus>
+            <input type="submit" value="submit">
+            </form>
+    </div>
+    <!-- pattern -->
+    <!-- html doc me dekh ke pattern set kar na hai for help -->
+
+
+    <!-- placeholder -->
+    <div>
+        <form action="">
+            <label for="">UserName</label>
+            <input type="text" placeholder="Enter user Name">
+            <input type="submit" value="submit">
+
+        </form>
+    </div>
+
+<br><br><br>
+</body>
+</html>

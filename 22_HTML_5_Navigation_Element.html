@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Nav Element</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+         
+        nav ul{
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav ul li{
+            float: left;
+           
+        }
+        nav ul li a{
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 20px;
+            display:inline-block;
+            color: blanchedalmond;
+            
+        } 
+        nav ul li a:hover{
+            background-color: green;
+        }
+        nav ul li a.active{
+             background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+   <!-- HTML Nav Element -->
+   <nav>
+       <ul>
+           <li><a href="#" class="active">Home</a></li>
+           <li><a href="#">About us</a></li>
+           <li><a href="#">Contact us</a></li>
+           <li><a href="#">Careers</a></li>
+           <li><a href="#">forum</a></li>
+       </ul>
+   </nav>
+</body>
+</html>
